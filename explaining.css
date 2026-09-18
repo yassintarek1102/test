@@ -1,0 +1,56 @@
+body{
+    background-color:skyblue;
+    height:5000px;
+}
+
+h1{
+    color:skyblue;
+}
+
+li {
+    list-style:none;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+main{
+    padding:15px;
+    margin:20px;
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+}
+
+.aboutus{
+    background-color:#0578fb;
+    border-radius:15px;
+    padding:10px;
+    margin:20px;
+    cursor:pointer;
+    transition:0.5s;
+}
+    .aboutus:hover{
+        transform:translate(15px) scale(1.1);
+        padding:20px;
+    }
+
+.myphoto{
+    width:150px;
+    border-radius:20px;
+}
+
+.contact{
+    background-color:#0578fb;
+    border-radius:15px;
+    padding:10px;
+    margin:20px;
+    cursor:pointer;
+    transition:0.5s;
+}
+    .contact:hover{
+        transform:translate(15px) scale(1.1);
+        padding:20px;
+    }
